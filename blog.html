@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+<head>   
+  <meta http-equiv="Content-Type" content="width=device-width, initial-scale=1, text/html, charset=utf-8"/>
+  <title>Blog</title>
+  <style>
+    h1{
+	  background-color: #f1f1f1;
+	  text-align: center;
+	}
+	h2{
+	  background-color: black; 
+	}
+	footer{
+	  background-color: #f1f1f1;
+	  text-align: center;
+	}
+	.sideBar{
+	  float: right;
+	  width: 15%;
+ 	  background-color: #f1f1f1;  
+	}
+	.content{
+	  overflow: auto;
+	}
+	.headers{
+      background-color: #f1f1f1;
+    
+	}
+	.normal{
+	  background-color: white;
+	  color: black;
+	}
+	body {
+    margin: 0;
+   }
+
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 25%;
+     background-color: #f1f1f1;
+     position: fixed;
+     height: 100%;
+     overflow: auto;
+   }
+
+   li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+   }
+
+   li a.active {
+    background-color: #4CAF50;
+    color: white;
+   }
+
+   li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+   }
+  </style>  
+</head>
+
+<body>
+  <header>
+    <h1>
+      Blog for apple products
+    </h1>
+  </header>
+ 
+  <ul id = "navi">
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Iphone</a></li>
+    <li><a href="#contact">Macbook</a></li>
+    
+  </ul>
+  <aside class="sideBar">
+    <h3 class>Buy apple products!!</h3>
+    <ul style = "position: absolute">
+	  <li><a href="#" class="w3-bar-item w3-button">Link 1</a></li>
+      <li><a href="#" class="w3-bar-item w3-button">Link 2</a></li>
+      <li><a href="#" class="w3-bar-item w3-button">Link 3</a></li>
+	</ul>
+  </aside>
+  <section style="margin-left:25%; margin-right:15%;padding:1px 16px;height:1000px;">
+  <section class = "content">
+    <article>
+	  <details>
+	    <summary class = "headers">
+	     Iphone 
+	    </summary>
+		<img src="phone.jpg">
+		<p>iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colourful iPhone display. Splash and water resistance.1 And it looks every bit as powerful as it is. This is iPhone 7..</p>
+	 </details>
+	</article>
+  </section>
+  <br>
+  <section class = "content">
+    <article>
+	  <details>
+	    <summary class = "headers">
+	     Macbook
+	    </summary>
+		<img src="mac.jpg">
+		<p>It’s razor thin, feather light and even faster and more powerful than before. It has the brightest, most colourful Mac notebook display ever. And it features the Touch Bar — a Multi-Touch–enabled strip of glass built into the keyboard for instant access to the tools you want, exactly when you want them. MacBook Pro is built on groundbreaking ideas. And it’s ready for yours.</p>
+	  </details>
+	</article>
+  </section>
+  <br>
+  
+  <br>
+  <footer class = "content">
+    <address>
+	  CopyRights <a href = "ab355@snu.edu.in" style = "color: black">Mail here</a>
+	</address>
+  </footer>
+  </section>
+</body>
+
+</html>
